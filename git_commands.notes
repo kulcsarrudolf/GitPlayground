@@ -22,3 +22,9 @@ git reset --mixed //copys data from new current commit
                   //staging area
 
 git reset --soft //just move the branch
+
+//EDITOR CONFIG
+git config --global core.editor "'C:\Program Files\Microsoft VS Code\code.exe' -w"
+git config --get core.editor //check if it's ok
+
+git commit --amend //modify last commit message
