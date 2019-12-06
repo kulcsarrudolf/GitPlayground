@@ -1,0 +1,24 @@
+/* GIT TUTORIAL */
+
+git add //working area -> staging area
+git commit //staging area -> repository
+git checkout //repository -> working area
+
+git rm -f <filename> //remove file from working area and index
+git rm --cashed <filename> //remove filename from working are
+git mv <filename> <newFilenameAfterRename> //rename file
+
+//commands that move branches
+commit, merge, rebase, pull ...
+
+//GIT RESET
+// reset moves the current brarnch, and optionally 
+// copies data from the Repository to the other areas
+
+git reset --hard //copys data from new current commit 
+                 //to working area and staging area
+
+git reset --mixed //copys data from new current commit 
+                  //staging area
+
+git reset --soft //just move the branch
