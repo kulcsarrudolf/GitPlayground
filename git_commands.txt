@@ -1,2 +1,3 @@
 git rm -f <filename> //remove file from working area and index
-git rm --cashed <filename> //remove filename from working area
+git rm --cashed <filename> //remove filename from working are
+git mv <filename> <newFilenameAfterRename> //rename file
