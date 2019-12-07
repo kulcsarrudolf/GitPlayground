@@ -21,3 +21,5 @@ https://www.youtube.com/watch?v=pTCROLZLhDM
 <p align="center">
   <img width="300" src="https://res.cloudinary.com/teepublic/image/private/s--zsyGZPE5--/t_Preview/b_rgb:191920,c_limit,f_jpg,h_630,q_90,w_630/v1506054393/production/designs/1922762_1.jpg">
 </p>
+
+<!-- Note: Preview Markdown in VS Code -> Ctrl + Shift + V-->
