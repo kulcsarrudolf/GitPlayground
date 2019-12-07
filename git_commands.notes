@@ -64,3 +64,9 @@ git log <branch_1>..<branch_2> //compare the historys - just the commits from br
 //REBASE
 //Never rebase shared commits --> 
 //The Golden Rule - Never change shared history.
+
+git rebase -i <> //refactor the history
+
+//Git delete a branch
+git branch -d feature/login
+git push origin --delete feature/login
