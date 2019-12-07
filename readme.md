@@ -7,11 +7,13 @@ In **git_commands.notes** my notes with some commands I used and other remarks.
 
 ## Useful links:
 Learn Git Branching:  
-https://learngitbranching.js.org/  
+>https://learngitbranching.js.org/  
+
 Pluralsight Tutorial - Mastering Git  
-https://app.pluralsight.com/library/courses/mastering-git/  
+>https://app.pluralsight.com/library/courses/mastering-git/  
+
 Markdown:  
-https://www.youtube.com/watch?v=pTCROLZLhDM
+>https://www.youtube.com/watch?v=pTCROLZLhDM
 
 
 **Author:** *Kulcsár Rudolf Istvan*  
