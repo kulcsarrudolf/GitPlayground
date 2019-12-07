@@ -70,3 +70,6 @@ git rebase -i <> //refactor the history
 //Git delete a branch
 git branch -d feature/login
 git push origin --delete feature/login
+
+git branch -f style-dev develop //move a branch pointer
+gitk <filename> //file history
