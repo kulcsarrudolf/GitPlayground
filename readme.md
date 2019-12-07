@@ -15,9 +15,10 @@ Pluralsight Tutorial - Mastering Git
 Markdown:  
 >https://www.youtube.com/watch?v=pTCROLZLhDM
 
-
+***
 **Author:** *Kulcsár Rudolf Istvan*  
 **Website:** *http://kulcsarrudolf.com/*
+***
 
 <!-- Looking for a better solution -->
 <p align="center">
@@ -25,3 +26,4 @@ Markdown:
 </p>
 
 <!-- Note: Preview Markdown in VS Code -> Ctrl + Shift + V-->
+***
