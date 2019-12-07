@@ -28,3 +28,39 @@ git config --global core.editor "'C:\Program Files\Microsoft VS Code\code.exe' -
 git config --get core.editor //check if it's ok
 
 git commit --amend //modify last commit message
+
+//GIT LOG
+git log --graph --pretty --oneline --all //nice log
+
+//RESET EXAMPLES
+git reset --hard 2d10e9e
+git reset HEAD //head reset - unstaging
+git reset --hard HEAD
+git reset HEAD <filename>
+
+git reset --hard HEAD menu.txt //Cannot do hard reset with paths
+git checkout HEAD <filename>
+
+//STASH
+//it is like a clipboard
+git-stash //Stash the changes in a dirty working directory away
+git stash --include-untracked
+git stash list //list all
+git stash apply
+git stash clear
+
+git show 
+git show HEAD~2^2
+
+git blame <filename> //Show what revision and author last modified each line of a file
+
+git diff <commit_1> <commit_2>
+git diff <branch_1> <branch_2> 
+
+git log --grep <keyword> --oneline //the commit message contains <keyword>
+git log -3 --oneline //log the last 3 commits
+git log <branch_1>..<branch_2> //compare the historys - just the commits from branch_2
+
+//REBASE
+//Never rebase shared commits --> 
+//The Golden Rule - Never change shared history.
